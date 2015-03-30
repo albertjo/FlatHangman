@@ -12,19 +12,10 @@
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="MainView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytt-uv-Hb1">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="418" y="399" width="44" height="44"/>
-                                </variation>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mpV-gF-dNh">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <constraints>
@@ -46,6 +37,9 @@
                                         <include reference="qH8-Ft-jWE"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="dSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aHX-Om-Rjx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHd-BZ-60R">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -68,6 +62,9 @@
                                         <include reference="tGc-g9-fwo"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="cSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nbb-zS-J52"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXr-cT-Mgw">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -90,6 +87,9 @@
                                         <include reference="cbD-b8-PlH"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="bSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yNg-uQ-b90"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RoC-8H-U1u">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -112,6 +112,9 @@
                                         <include reference="taR-tj-2W8"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="gSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z0l-gB-wxI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wUJ-gq-bYm">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -134,6 +137,9 @@
                                         <include reference="dMl-IK-dw9"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="fSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CYS-TZ-MCE"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C7X-nv-8mF">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -156,6 +162,9 @@
                                         <include reference="GIo-zM-oNQ"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="eSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DFb-6j-EeI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZ4-3D-lmd">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -178,6 +187,9 @@
                                         <include reference="wia-kb-JuP"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="aSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jtk-nu-atl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="569-Jb-2Nn">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -200,6 +212,9 @@
                                         <include reference="plT-sR-vmq"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="pSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x7O-06-X4C"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PEk-dN-eul">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -222,6 +237,9 @@
                                         <include reference="LAr-IF-K2i"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="rSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o9H-nY-MWc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zh5-VR-vzj">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -244,6 +262,9 @@
                                         <include reference="kZY-dZ-kZj"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="qSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Riz-Vz-Clm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YOn-PN-79M">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -266,6 +287,9 @@
                                         <include reference="cGv-BI-4cD"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="oSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BXN-Vq-NHT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jzE-UG-vgG">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -288,6 +312,9 @@
                                         <include reference="HHi-xi-mKl"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="sSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zz7-dH-piZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W0h-x4-c50">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -310,6 +337,9 @@
                                         <include reference="KHc-aJ-r2M"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="zSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xvR-sM-jbP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SA5-38-AO2">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -332,6 +362,9 @@
                                         <include reference="isT-uq-wNg"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="vSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XGc-I9-lsU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R75-Bg-jm9">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -354,6 +387,9 @@
                                         <include reference="NXD-Bu-wd3"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="uSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ELc-vj-lYs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zeW-7v-ENf">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -376,6 +412,9 @@
                                         <include reference="naa-fb-tNH"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="tSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9DW-uT-R8e"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGj-30-xlw">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -398,6 +437,9 @@
                                         <include reference="dh4-GV-mie"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="ySelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="afO-Nr-7xj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wrG-Nc-GhD">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -420,6 +462,9 @@
                                         <include reference="fIM-jE-emn"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="xSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tpd-YX-4J9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCE-fA-MqF">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -442,6 +487,9 @@
                                         <include reference="ynG-Vj-goQ"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="wSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EA4-Qg-UPh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RdQ-fc-bGR">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -464,6 +512,9 @@
                                         <include reference="uzn-ye-vCR"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="hSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Pi-cX-jZ7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GK2-vV-y0o">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -486,6 +537,9 @@
                                         <include reference="fZk-Qp-HWa"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="iSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I8N-sj-myN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ggn-s7-PNw">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -508,6 +562,9 @@
                                         <include reference="eJ1-qd-8Ye"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="lSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pYL-Kd-sVd"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jcH-rI-avY">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -530,6 +587,9 @@
                                         <include reference="Rdb-Ip-fjG"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="kSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PI1-MZ-mLG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTv-NT-1YL">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -552,6 +612,9 @@
                                         <include reference="dDZ-PU-YgO"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="jSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sJN-O4-Jqo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6eR-P9-4Sp">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -574,6 +637,9 @@
                                         <include reference="bXg-cl-SVG"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="nSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1sQ-Nm-ueb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hl3-A1-7WB">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -596,9 +662,12 @@
                                         <include reference="xdV-vq-2wt"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="mSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s3m-Or-iQR"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.60156633783465141" blue="0.42535474110680283" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.47040352995277734" blue="0.46655550377816835" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="hl3-A1-7WB" secondAttribute="centerX" constant="-104" id="0DO-4Q-o6V"/>
                             <constraint firstAttribute="centerX" secondItem="C7X-nv-8mF" secondAttribute="centerX" constant="-52" id="1l4-Ga-8iI"/>
@@ -655,7 +724,6 @@
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="ytt-uv-Hb1"/>
                                 <exclude reference="mpV-gF-dNh"/>
                                 <exclude reference="IHd-BZ-60R"/>
                                 <exclude reference="uXr-cT-Mgw"/>
@@ -740,7 +808,6 @@
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="ytt-uv-Hb1"/>
                                 <include reference="mpV-gF-dNh"/>
                                 <include reference="IHd-BZ-60R"/>
                                 <include reference="uXr-cT-Mgw"/>
