@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A62BB125-8703-4F96-8678-C0E7534AD7CE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FlatHangman</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>744509B425AF5E8291265BD1C0C1B0ACEC422284</key>
+		<string>https://github.com/albertjo/FlatHangman</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FlatHangman.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>744509B425AF5E8291265BD1C0C1B0ACEC422284</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/albertjo/FlatHangman</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>744509B425AF5E8291265BD1C0C1B0ACEC422284</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>744509B425AF5E8291265BD1C0C1B0ACEC422284</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FlatHangman</string>
+		</dict>
+	</array>
+</dict>
+</plist>
