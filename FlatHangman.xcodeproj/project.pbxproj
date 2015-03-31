@@ -15,6 +15,9 @@
 		543D51781AC8E37600B67463 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 543D51761AC8E37600B67463 /* LaunchScreen.xib */; };
 		543D51841AC8E37600B67463 /* FlatHangmanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 543D51831AC8E37600B67463 /* FlatHangmanTests.m */; };
 		543E86F61ACA01D900438196 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 543E86F51ACA01D900438196 /* MainView.m */; };
+		543E86FB1ACA084300438196 /* HangmanWords.m in Sources */ = {isa = PBXBuildFile; fileRef = 543E86F91ACA084200438196 /* HangmanWords.m */; };
+		543E86FC1ACA084300438196 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = 543E86FA1ACA084200438196 /* words.plist */; };
+		543E87001ACA095B00438196 /* HangmanGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 543E86FF1ACA095B00438196 /* HangmanGame.m */; };
 		549087A01AC9B58C000D80EA /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 549087861AC9B58C000D80EA /* a.png */; };
 		549087A11AC9B58C000D80EA /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 549087871AC9B58C000D80EA /* b.png */; };
 		549087A21AC9B58C000D80EA /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = 549087881AC9B58C000D80EA /* c.png */; };
@@ -69,6 +72,11 @@
 		543D51831AC8E37600B67463 /* FlatHangmanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlatHangmanTests.m; sourceTree = "<group>"; };
 		543E86F41ACA01D900438196 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = ../MainView.h; sourceTree = "<group>"; };
 		543E86F51ACA01D900438196 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = ../MainView.m; sourceTree = "<group>"; };
+		543E86F81ACA084200438196 /* HangmanWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangmanWords.h; sourceTree = "<group>"; };
+		543E86F91ACA084200438196 /* HangmanWords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HangmanWords.m; sourceTree = "<group>"; };
+		543E86FA1ACA084200438196 /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = words.plist; sourceTree = "<group>"; };
+		543E86FE1ACA095B00438196 /* HangmanGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangmanGame.h; sourceTree = "<group>"; };
+		543E86FF1ACA095B00438196 /* HangmanGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HangmanGame.m; sourceTree = "<group>"; };
 		549087861AC9B58C000D80EA /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
 		549087871AC9B58C000D80EA /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
 		549087881AC9B58C000D80EA /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c.png; sourceTree = "<group>"; };
@@ -136,6 +144,7 @@
 		543D51661AC8E37600B67463 /* FlatHangman */ = {
 			isa = PBXGroup;
 			children = (
+				543E86FD1ACA086800438196 /* Model */,
 				543E86F41ACA01D900438196 /* MainView.h */,
 				543E86F51ACA01D900438196 /* MainView.m */,
 				543D516B1AC8E37600B67463 /* AppDelegate.h */,
@@ -175,6 +184,26 @@
 				543D51821AC8E37600B67463 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		543E86F71ACA084200438196 /* Words */ = {
+			isa = PBXGroup;
+			children = (
+				543E86F81ACA084200438196 /* HangmanWords.h */,
+				543E86F91ACA084200438196 /* HangmanWords.m */,
+				543E86FA1ACA084200438196 /* words.plist */,
+			);
+			path = Words;
+			sourceTree = "<group>";
+		};
+		543E86FD1ACA086800438196 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				543E86F71ACA084200438196 /* Words */,
+				543E86FE1ACA095B00438196 /* HangmanGame.h */,
+				543E86FF1ACA095B00438196 /* HangmanGame.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		549087851AC9B58C000D80EA /* Lowercase Letters */ = {
@@ -294,6 +323,7 @@
 				549087B01AC9B58C000D80EA /* q.png in Resources */,
 				543D51731AC8E37600B67463 /* Main.storyboard in Resources */,
 				549087A61AC9B58C000D80EA /* g.png in Resources */,
+				543E86FC1ACA084300438196 /* words.plist in Resources */,
 				549087AE1AC9B58C000D80EA /* o.png in Resources */,
 				549087B81AC9B58C000D80EA /* y.png in Resources */,
 				549087A11AC9B58C000D80EA /* b.png in Resources */,
@@ -338,6 +368,8 @@
 			files = (
 				543D51701AC8E37600B67463 /* ViewController.m in Sources */,
 				543E86F61ACA01D900438196 /* MainView.m in Sources */,
+				543E87001ACA095B00438196 /* HangmanGame.m in Sources */,
+				543E86FB1ACA084300438196 /* HangmanWords.m in Sources */,
 				543D516D1AC8E37600B67463 /* AppDelegate.m in Sources */,
 				543D516A1AC8E37600B67463 /* main.m in Sources */,
 			);

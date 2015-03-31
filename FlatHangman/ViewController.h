@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@class HangmanGame;
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    
+    HangmanGame *game;
+}
 
 
 - (IBAction)aSelected:(id)sender;

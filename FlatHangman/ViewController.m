@@ -7,12 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "HangmanGame.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,7 +26,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)awakeFromNib {
+    game = [[HangmanGame alloc] init];
+    NSLog([game getCurrentWord]);
+}
+
 - (void)buttonSelected:(id)sender character:(NSString *)ch {
+    [game guessChar:ch];
     UIButton *theButton = (UIButton *) sender;
     theButton.enabled = NO;
 }
