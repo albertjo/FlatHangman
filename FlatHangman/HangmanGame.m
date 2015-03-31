@@ -22,17 +22,21 @@
 - (void)newGame {
     currentWord = [[words getWord] lowercaseString];
     wordProgress = [[NSMutableArray alloc] init];
+    wordArray = [[NSMutableArray alloc] init];
     tries = 5;
     won = false;
     
     for (int i = 0; i < [currentWord length]; i++) {
         char currentCh = [currentWord characterAtIndex:i];
+        [wordArray addObject:[NSString stringWithFormat:@"%c", currentCh]];
         if (currentCh != ' ') {
             [wordProgress addObject: @"_"];
         } else {
             [wordProgress addObject:@" "];
         }
     }
+    
+    
 }
 
 - (void)guessChar:(NSString *)ch {
@@ -69,8 +73,16 @@
     return wordProgress;
 }
 
+- (NSMutableArray *)getWordArray {
+    return wordArray;
+}
+
 - (NSInteger)getTries {
     return tries;
+}
+
+- (BOOL)wonGame {
+    return won;
 }
 
 

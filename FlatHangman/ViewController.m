@@ -22,7 +22,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     buttonArray = [NSArray arrayWithObjects: _aButton, _bButton, _cButton, _dButton, _eButton, _fButton, _gButton, _hButton, _iButton, _jButton, _kButton, _lButton, _mButton, _nButton, _oButton, _pButton, _qButton, _rButton, _sButton, _tButton, _uButton, _vButton, _wButton, _xButton, _yButton, _zButton, nil];
+    
+    imgArray = [NSMutableArray arrayWithObjects:_img0,_img1,_img2, _img3,_img4,_img5,_img6,_img7,_img8, _img9, _img10, _img11, _img12, _img13, _img14, _img15, _img16, _img17, _img18, _img19, _img20, _img21, _img22, _img23, _img24, _img25, _img26, _img27, _img28, _img29, _img30, _img31, _img32, _img33, _img34, _img35, _img36, _img37, _img38, _img39, nil];
+    
     [self updateView];
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -39,20 +43,64 @@
 }
 
 - (void)updateView {
-    liveLabel.text = [NSString stringWithFormat:@"%d/5", [game getTries]];
+    liveLabel.text = [NSString stringWithFormat:@"%ld/5", (long)[game getTries]];
+    NSMutableArray *progressAry = [game getProgressArray];
+    
+    for (int i = 0; i < [imgArray count];i++) {
+        UIImageView *imgView = [imgArray objectAtIndex:i];
+        
+        if (i < [progressAry count]) {
+            if (![game wonGame]) {
+                NSString *currCh = [progressAry objectAtIndex:i];
+                if ([currCh isEqualToString:@"_"]) {
+                    [imgView setImage: [UIImage imageNamed:@"27.png"]];
+                } else {
+                    [imgView setImage:[UIImage imageNamed: [NSString stringWithFormat:@"%@.png", currCh]]];
+                }
+            } else {
+                char wordCh = [[game getCurrentWord] characterAtIndex:i];
+                if (wordCh != ' ') {
+                    [imgView setImage:[UIImage imageNamed: [NSString stringWithFormat:@"%c.png", wordCh]]];
+                }
+            }
+        } else {
+            [imgView setImage:[self imageWithColor:[UIColor colorWithRed:0.941 green:0.463 blue:0.463 alpha:1] size:imgView.frame.size]];
+        }
+    }
+    
+    if ([game wonGame] || [game getTries] == 0) {
+        [self disableAllButtons];
+    }
 }
 
 - (IBAction)newGame:(id)sender {
     [game newGame];
+    [self enableAllButtons];
     [self updateView];
+}
 
+- (void)enableAllButtons {
     for (UIButton *button in buttonArray) {
         button.enabled = YES;
     }
-    
-    
 }
 
+- (void)disableAllButtons {
+    for (UIButton *button in buttonArray) {
+        button.enabled = NO;
+    }
+}
+
+- (UIImage*) imageWithColor:(UIColor*)color size:(CGSize)size
+{
+    UIGraphicsBeginImageContext(size);
+    UIBezierPath* rPath = [UIBezierPath bezierPathWithRect:CGRectMake(0., 0., size.width, size.height)];
+    [color setFill];
+    [rPath fill];
+    UIImage* image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
+}
 
 - (void)buttonSelected:(id)sender character:(NSString *)ch {
     [game guessChar:ch];

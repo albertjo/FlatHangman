@@ -713,8 +713,7 @@
                                         <exclude reference="sQP-Er-BWj"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact" ambiguous="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="400" height="86"/>
+                                <variation key="widthClass=compact">
                                     <mask key="subviews">
                                         <include reference="hs7-Ki-lgd"/>
                                         <include reference="H0A-VB-Z6n"/>
@@ -723,6 +722,355 @@
                                     <mask key="constraints">
                                         <include reference="ANZ-Of-YF3"/>
                                         <include reference="sQP-Er-BWj"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d4v-V9-D98">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rzt-Sn-rll">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="50" y="35" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eyq-Io-YR6">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="9" y="35" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2xv-KY-v3I">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="9" y="76" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dvv-WW-HfJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="50" y="76" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jbJ-we-PWC">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="132" y="35" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E7f-eW-tg3">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="91" y="35" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o9s-t2-ren">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="91" y="76" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sqO-AX-eHj">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="132" y="76" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eio-Qx-lFu">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="214" y="35" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mgE-7T-ywz">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="173" y="35" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fdH-8X-7t7">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="173" y="76" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QOp-hi-prg">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="214" y="76" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WgS-2W-Fum">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="296" y="35" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NYR-3L-cDw">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="255" y="35" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pfL-B6-akQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="255" y="76" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0nK-Ds-Ed8">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="296" y="76" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hhb-BG-lVY">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="50" y="117" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cJj-wT-Fty">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="9" y="117" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jCh-jy-I5h">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="9" y="158" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qfo-bd-qPV">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="50" y="158" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0yn-aF-h7v">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="132" y="117" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KoG-sU-dwt">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="91" y="117" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZaH-Dn-2zF">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="91" y="158" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="m8h-0L-a2A">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="132" y="158" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aGB-gE-Jge">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="214" y="117" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cFd-ov-3L8">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="173" y="117" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3JA-aK-5Z3">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="173" y="158" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nMN-60-KCc">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="214" y="158" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uHu-Ay-diS">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="296" y="117" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tmW-Sj-E8H">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="255" y="117" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BjR-Ha-FTi">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="255" y="158" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="o15-nr-3DR">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="296" y="158" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PNr-Ke-3lI">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="9" y="199" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2ZP-nv-FDG">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="50" y="199" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ern-yI-CkB">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="91" y="199" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JpE-qu-xY1">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="132" y="199" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ulR-3i-dTZ">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="173" y="199" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ncU-eQ-b7d">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="214" y="199" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IZl-y8-YZB">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="255" y="199" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="REW-sV-OmO">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="296" y="199" width="33" height="33"/>
+                                        </variation>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.549496757" blue="0.52199448039999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="267" id="f2r-Qk-sPe"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="267" id="lwL-Ht-vTD"/>
+                                    <constraint firstAttribute="width" constant="338" id="yFd-Q6-BdP"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="rzt-Sn-rll"/>
+                                        <exclude reference="eyq-Io-YR6"/>
+                                        <exclude reference="2xv-KY-v3I"/>
+                                        <exclude reference="Dvv-WW-HfJ"/>
+                                        <exclude reference="jbJ-we-PWC"/>
+                                        <exclude reference="E7f-eW-tg3"/>
+                                        <exclude reference="o9s-t2-ren"/>
+                                        <exclude reference="sqO-AX-eHj"/>
+                                        <exclude reference="eio-Qx-lFu"/>
+                                        <exclude reference="mgE-7T-ywz"/>
+                                        <exclude reference="fdH-8X-7t7"/>
+                                        <exclude reference="QOp-hi-prg"/>
+                                        <exclude reference="WgS-2W-Fum"/>
+                                        <exclude reference="NYR-3L-cDw"/>
+                                        <exclude reference="pfL-B6-akQ"/>
+                                        <exclude reference="0nK-Ds-Ed8"/>
+                                        <exclude reference="hhb-BG-lVY"/>
+                                        <exclude reference="cJj-wT-Fty"/>
+                                        <exclude reference="jCh-jy-I5h"/>
+                                        <exclude reference="Qfo-bd-qPV"/>
+                                        <exclude reference="0yn-aF-h7v"/>
+                                        <exclude reference="KoG-sU-dwt"/>
+                                        <exclude reference="ZaH-Dn-2zF"/>
+                                        <exclude reference="m8h-0L-a2A"/>
+                                        <exclude reference="aGB-gE-Jge"/>
+                                        <exclude reference="cFd-ov-3L8"/>
+                                        <exclude reference="3JA-aK-5Z3"/>
+                                        <exclude reference="nMN-60-KCc"/>
+                                        <exclude reference="uHu-Ay-diS"/>
+                                        <exclude reference="tmW-Sj-E8H"/>
+                                        <exclude reference="BjR-Ha-FTi"/>
+                                        <exclude reference="o15-nr-3DR"/>
+                                        <exclude reference="PNr-Ke-3lI"/>
+                                        <exclude reference="2ZP-nv-FDG"/>
+                                        <exclude reference="Ern-yI-CkB"/>
+                                        <exclude reference="JpE-qu-xY1"/>
+                                        <exclude reference="ulR-3i-dTZ"/>
+                                        <exclude reference="ncU-eQ-b7d"/>
+                                        <exclude reference="IZl-y8-YZB"/>
+                                        <exclude reference="REW-sV-OmO"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <exclude reference="f2r-Qk-sPe"/>
+                                        <exclude reference="lwL-Ht-vTD"/>
+                                        <exclude reference="yFd-Q6-BdP"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="rzt-Sn-rll"/>
+                                        <include reference="eyq-Io-YR6"/>
+                                        <include reference="2xv-KY-v3I"/>
+                                        <include reference="Dvv-WW-HfJ"/>
+                                        <include reference="jbJ-we-PWC"/>
+                                        <include reference="E7f-eW-tg3"/>
+                                        <include reference="o9s-t2-ren"/>
+                                        <include reference="sqO-AX-eHj"/>
+                                        <include reference="eio-Qx-lFu"/>
+                                        <include reference="mgE-7T-ywz"/>
+                                        <include reference="fdH-8X-7t7"/>
+                                        <include reference="QOp-hi-prg"/>
+                                        <include reference="WgS-2W-Fum"/>
+                                        <include reference="NYR-3L-cDw"/>
+                                        <include reference="pfL-B6-akQ"/>
+                                        <include reference="0nK-Ds-Ed8"/>
+                                        <include reference="hhb-BG-lVY"/>
+                                        <include reference="cJj-wT-Fty"/>
+                                        <include reference="jCh-jy-I5h"/>
+                                        <include reference="Qfo-bd-qPV"/>
+                                        <include reference="0yn-aF-h7v"/>
+                                        <include reference="KoG-sU-dwt"/>
+                                        <include reference="ZaH-Dn-2zF"/>
+                                        <include reference="m8h-0L-a2A"/>
+                                        <include reference="aGB-gE-Jge"/>
+                                        <include reference="cFd-ov-3L8"/>
+                                        <include reference="3JA-aK-5Z3"/>
+                                        <include reference="nMN-60-KCc"/>
+                                        <include reference="uHu-Ay-diS"/>
+                                        <include reference="tmW-Sj-E8H"/>
+                                        <include reference="BjR-Ha-FTi"/>
+                                        <include reference="o15-nr-3DR"/>
+                                        <include reference="PNr-Ke-3lI"/>
+                                        <include reference="2ZP-nv-FDG"/>
+                                        <include reference="Ern-yI-CkB"/>
+                                        <include reference="JpE-qu-xY1"/>
+                                        <include reference="ulR-3i-dTZ"/>
+                                        <include reference="ncU-eQ-b7d"/>
+                                        <include reference="IZl-y8-YZB"/>
+                                        <include reference="REW-sV-OmO"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="f2r-Qk-sPe"/>
+                                        <include reference="lwL-Ht-vTD"/>
+                                        <include reference="yFd-Q6-BdP"/>
                                     </mask>
                                 </variation>
                             </view>
@@ -749,12 +1097,14 @@
                             <constraint firstAttribute="centerX" secondItem="UTv-NT-1YL" secondAttribute="centerX" constant="52" id="KrM-XE-dTM"/>
                             <constraint firstAttribute="centerX" secondItem="W0h-x4-c50" secondAttribute="centerX" constant="-104" id="L2X-a6-gYi"/>
                             <constraint firstAttribute="centerY" secondItem="RoC-8H-U1u" secondAttribute="centerY" constant="-102" id="MhA-0e-CnP"/>
+                            <constraint firstAttribute="centerX" secondItem="d4v-V9-D98" secondAttribute="centerX" id="Ni1-nu-FWz"/>
                             <constraint firstAttribute="centerX" secondItem="R75-Bg-jm9" secondAttribute="centerX" constant="-156" id="O7j-fv-Hll"/>
                             <constraint firstAttribute="centerY" secondItem="IHd-BZ-60R" secondAttribute="centerY" constant="-102" id="PAa-iO-Y0s"/>
                             <constraint firstAttribute="centerY" secondItem="jzE-UG-vgG" secondAttribute="centerY" constant="-206" id="PbV-xh-cRo"/>
                             <constraint firstAttribute="centerY" secondItem="YOn-PN-79M" secondAttribute="centerY" constant="-206" id="TdW-FE-0US"/>
                             <constraint firstAttribute="centerY" secondItem="aCE-fA-MqF" secondAttribute="centerY" constant="-258" id="Te2-LV-ayT"/>
                             <constraint firstAttribute="centerX" secondItem="zyO-5I-sum" secondAttribute="centerX" id="bXT-6b-9Bk"/>
+                            <constraint firstItem="d4v-V9-D98" firstAttribute="top" secondItem="zyO-5I-sum" secondAttribute="bottom" constant="13" id="bkb-DP-aMV"/>
                             <constraint firstAttribute="centerX" secondItem="yZ4-3D-lmd" secondAttribute="centerX" constant="156" id="bzp-KB-mQ5"/>
                             <constraint firstAttribute="centerX" secondItem="GK2-vV-y0o" secondAttribute="centerX" constant="104" id="cAV-Yy-JlC"/>
                             <constraint firstAttribute="centerX" secondItem="Ggn-s7-PNw" secondAttribute="centerX" constant="-52" id="djX-hN-k0B"/>
@@ -778,10 +1128,12 @@
                             <constraint firstAttribute="centerX" secondItem="PEk-dN-eul" secondAttribute="centerX" id="rCL-Eu-PdD"/>
                             <constraint firstAttribute="centerX" secondItem="aCE-fA-MqF" secondAttribute="centerX" constant="52" id="rYX-zn-zM9"/>
                             <constraint firstAttribute="centerY" secondItem="uXr-cT-Mgw" secondAttribute="centerY" constant="-102" id="srA-P7-yi5"/>
+                            <constraint firstItem="mpV-gF-dNh" firstAttribute="top" secondItem="d4v-V9-D98" secondAttribute="bottom" constant="14" id="v2T-OO-jl5"/>
                             <constraint firstAttribute="centerX" secondItem="zeW-7v-ENf" secondAttribute="centerX" constant="-104" id="vrv-P6-e50"/>
                             <constraint firstAttribute="centerX" secondItem="RoC-8H-U1u" secondAttribute="centerX" constant="-156" id="wG1-qd-2cd"/>
                             <constraint firstAttribute="centerX" secondItem="RdQ-fc-bGR" secondAttribute="centerX" constant="156" id="wGO-Nd-d8x"/>
                             <constraint firstAttribute="centerX" secondItem="IHd-BZ-60R" secondAttribute="centerX" constant="52" id="y85-0J-XUe"/>
+                            <constraint firstAttribute="centerY" secondItem="d4v-V9-D98" secondAttribute="centerY" constant="67.5" id="zVX-pp-ZPc"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -812,9 +1164,13 @@
                                 <exclude reference="6eR-P9-4Sp"/>
                                 <exclude reference="hl3-A1-7WB"/>
                                 <exclude reference="zyO-5I-sum"/>
+                                <exclude reference="d4v-V9-D98"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="bXT-6b-9Bk"/>
+                                <exclude reference="Ni1-nu-FWz"/>
+                                <exclude reference="bkb-DP-aMV"/>
+                                <exclude reference="zVX-pp-ZPc"/>
                                 <exclude reference="bzp-KB-mQ5"/>
                                 <exclude reference="hMh-yR-Jdh"/>
                                 <exclude reference="523-EB-pjd"/>
@@ -823,6 +1179,7 @@
                                 <exclude reference="y85-0J-XUe"/>
                                 <exclude reference="7WW-Kn-E9F"/>
                                 <exclude reference="Jwh-gz-tGZ"/>
+                                <exclude reference="v2T-OO-jl5"/>
                                 <exclude reference="ov9-HK-XlX"/>
                                 <exclude reference="wGO-Nd-d8x"/>
                                 <exclude reference="cAV-Yy-JlC"/>
@@ -898,9 +1255,13 @@
                                 <include reference="6eR-P9-4Sp"/>
                                 <include reference="hl3-A1-7WB"/>
                                 <include reference="zyO-5I-sum"/>
+                                <include reference="d4v-V9-D98"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="bXT-6b-9Bk"/>
+                                <include reference="Ni1-nu-FWz"/>
+                                <include reference="bkb-DP-aMV"/>
+                                <include reference="zVX-pp-ZPc"/>
                                 <include reference="bzp-KB-mQ5"/>
                                 <include reference="hMh-yR-Jdh"/>
                                 <include reference="523-EB-pjd"/>
@@ -909,6 +1270,7 @@
                                 <include reference="y85-0J-XUe"/>
                                 <include reference="7WW-Kn-E9F"/>
                                 <include reference="Jwh-gz-tGZ"/>
+                                <include reference="v2T-OO-jl5"/>
                                 <include reference="ov9-HK-XlX"/>
                                 <include reference="wGO-Nd-d8x"/>
                                 <include reference="cAV-Yy-JlC"/>
@@ -958,6 +1320,7 @@
                     </view>
                     <connections>
                         <outlet property="aButton" destination="yZ4-3D-lmd" id="wYU-jT-ETw"/>
+                        <outlet property="answerView" destination="d4v-V9-D98" id="bVX-Lz-BVC"/>
                         <outlet property="bButton" destination="uXr-cT-Mgw" id="cxn-Ef-gD2"/>
                         <outlet property="cButton" destination="IHd-BZ-60R" id="M5p-Ki-E9j"/>
                         <outlet property="dButton" destination="mpV-gF-dNh" id="yCD-OI-ojs"/>
@@ -966,6 +1329,46 @@
                         <outlet property="gButton" destination="RoC-8H-U1u" id="ZyS-Aa-evm"/>
                         <outlet property="hButton" destination="RdQ-fc-bGR" id="JDa-r9-FOt"/>
                         <outlet property="iButton" destination="GK2-vV-y0o" id="GkW-8k-bm6"/>
+                        <outlet property="img0" destination="eyq-Io-YR6" id="zGg-Kf-5Xp"/>
+                        <outlet property="img1" destination="rzt-Sn-rll" id="Tkz-in-7sW"/>
+                        <outlet property="img10" destination="o9s-t2-ren" id="TrD-nG-ynL"/>
+                        <outlet property="img11" destination="sqO-AX-eHj" id="EK5-6S-hqd"/>
+                        <outlet property="img12" destination="fdH-8X-7t7" id="mR7-uX-8YD"/>
+                        <outlet property="img13" destination="QOp-hi-prg" id="mOe-wn-EUq"/>
+                        <outlet property="img14" destination="pfL-B6-akQ" id="ZHh-Va-nLk"/>
+                        <outlet property="img15" destination="0nK-Ds-Ed8" id="mB1-o1-IhL"/>
+                        <outlet property="img16" destination="cJj-wT-Fty" id="9cl-Da-C2x"/>
+                        <outlet property="img17" destination="hhb-BG-lVY" id="nAN-6P-He5"/>
+                        <outlet property="img18" destination="KoG-sU-dwt" id="soH-Pz-4Kg"/>
+                        <outlet property="img19" destination="0yn-aF-h7v" id="Z1b-CM-ZAf"/>
+                        <outlet property="img2" destination="E7f-eW-tg3" id="8uI-mz-kdM"/>
+                        <outlet property="img20" destination="cFd-ov-3L8" id="n73-2z-Wb8"/>
+                        <outlet property="img21" destination="aGB-gE-Jge" id="loS-RM-SbU"/>
+                        <outlet property="img22" destination="tmW-Sj-E8H" id="3N3-Mc-G2b"/>
+                        <outlet property="img23" destination="uHu-Ay-diS" id="q6R-My-WMj"/>
+                        <outlet property="img24" destination="jCh-jy-I5h" id="tgU-6u-PMX"/>
+                        <outlet property="img25" destination="Qfo-bd-qPV" id="edw-eA-D76"/>
+                        <outlet property="img26" destination="ZaH-Dn-2zF" id="VCt-tx-6vr"/>
+                        <outlet property="img27" destination="m8h-0L-a2A" id="UcX-ed-gPW"/>
+                        <outlet property="img28" destination="3JA-aK-5Z3" id="tCp-kn-CYW"/>
+                        <outlet property="img29" destination="nMN-60-KCc" id="YbJ-VM-5an"/>
+                        <outlet property="img3" destination="jbJ-we-PWC" id="23f-fT-8jY"/>
+                        <outlet property="img30" destination="BjR-Ha-FTi" id="h7q-uI-GvC"/>
+                        <outlet property="img31" destination="o15-nr-3DR" id="Ecd-7Q-2iF"/>
+                        <outlet property="img32" destination="PNr-Ke-3lI" id="qr4-WV-zIf"/>
+                        <outlet property="img33" destination="2ZP-nv-FDG" id="Xgf-Rs-s5g"/>
+                        <outlet property="img34" destination="Ern-yI-CkB" id="Aie-Jm-OOH"/>
+                        <outlet property="img35" destination="JpE-qu-xY1" id="ui8-Lv-JQn"/>
+                        <outlet property="img36" destination="ulR-3i-dTZ" id="905-uA-Eer"/>
+                        <outlet property="img37" destination="ncU-eQ-b7d" id="iUX-QN-2it"/>
+                        <outlet property="img38" destination="IZl-y8-YZB" id="2vt-yT-WyR"/>
+                        <outlet property="img39" destination="REW-sV-OmO" id="5dN-rt-4To"/>
+                        <outlet property="img4" destination="mgE-7T-ywz" id="Jk2-Wh-vyM"/>
+                        <outlet property="img5" destination="eio-Qx-lFu" id="pri-IN-BSJ"/>
+                        <outlet property="img6" destination="NYR-3L-cDw" id="eUH-vr-p5x"/>
+                        <outlet property="img7" destination="WgS-2W-Fum" id="wfK-hw-MVy"/>
+                        <outlet property="img8" destination="2xv-KY-v3I" id="tM9-S5-owH"/>
+                        <outlet property="img9" destination="Dvv-WW-HfJ" id="coH-zs-1Ho"/>
                         <outlet property="jButton" destination="UTv-NT-1YL" id="hsX-9h-KQV"/>
                         <outlet property="kButton" destination="jcH-rI-avY" id="TJD-oy-UjG"/>
                         <outlet property="lButton" destination="Ggn-s7-PNw" id="U1P-7y-oYq"/>

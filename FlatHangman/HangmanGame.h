@@ -13,6 +13,7 @@
     HangmanWords *words;
     NSString *currentWord;
     NSMutableArray *wordProgress;
+    NSMutableArray *wordArray;
     NSInteger tries;
     BOOL won;
 
@@ -21,5 +22,8 @@
 - (NSString *)getCurrentWord;
 - (void)guessChar:(NSString *)ch;
 - (void)newGame;
+- (NSMutableArray *)getProgressArray;
+- (NSMutableArray *)getWordArray;
 - (NSInteger)getTries;
+- (BOOL)wonGame;
 @end
