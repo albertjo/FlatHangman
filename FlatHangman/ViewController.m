@@ -43,7 +43,7 @@
 }
 
 - (void)updateView {
-    liveLabel.text = [NSString stringWithFormat:@"%ld/5", (long)[game getTries]];
+    liveLabel.text = [NSString stringWithFormat:@"%ld/6", (long)[game getTries]];
     NSMutableArray *progressAry = [game getProgressArray];
     
     for (int i = 0; i < [imgArray count];i++) {
@@ -64,12 +64,17 @@
                 }
             }
         } else {
-            [imgView setImage:[self imageWithColor:[UIColor colorWithRed:0.941 green:0.463 blue:0.463 alpha:1] size:imgView.frame.size]];
+            [imgView setImage:[self imageWithColor:[UIColor colorWithRed:0.925 green:0.98 blue:0.98 alpha:1] /*#ecfafa*/ size:imgView.frame.size]];
         }
     }
     
     if ([game wonGame] || [game getTries] == 0) {
         [self disableAllButtons];
+        for (NSInteger i = 0; i < [[game getCurrentWord] length]; i++) {
+            UIImageView *imgView = [imgArray objectAtIndex:i];
+            char ch = [[game getCurrentWord] characterAtIndex:i];
+            [imgView setImage:[UIImage imageNamed: [NSString stringWithFormat:@"%c.png", ch]]];
+        }
     }
 }
 

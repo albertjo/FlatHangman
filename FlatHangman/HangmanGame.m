@@ -23,7 +23,7 @@
     currentWord = [[words getWord] lowercaseString];
     wordProgress = [[NSMutableArray alloc] init];
     wordArray = [[NSMutableArray alloc] init];
-    tries = 5;
+    tries = 6;
     won = false;
     
     for (int i = 0; i < [currentWord length]; i++) {
@@ -40,7 +40,7 @@
 }
 
 - (void)guessChar:(NSString *)ch {
-    if (tries >= 0) {
+    if (tries > 0) {
         NSMutableArray *indicesOfCh = [[NSMutableArray alloc] init];
         for (int i = 0; i < [currentWord length]; i++) {
             NSString *currentCh = [NSString stringWithFormat:@"%c", [currentWord characterAtIndex:i]];
@@ -56,7 +56,6 @@
         } else {
             tries--;
         }
-        
         if ([[wordProgress componentsJoinedByString:@""] isEqualToString:currentWord])  {
             won = true;
         }
