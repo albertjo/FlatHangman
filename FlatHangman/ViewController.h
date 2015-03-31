@@ -8,13 +8,16 @@
 
 #import <UIKit/UIKit.h>
 @class HangmanGame;
+@class MainView;
 
 @interface ViewController : UIViewController {
-    
     HangmanGame *game;
+    IBOutlet UILabel *_livesLabel;
 }
 
+- (void)updateView;
 
+- (IBAction)newGame:(id)sender;
 - (IBAction)aSelected:(id)sender;
 - (IBAction)bSelected:(id)sender;
 - (IBAction)cSelected:(id)sender;

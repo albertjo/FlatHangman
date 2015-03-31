@@ -15,7 +15,6 @@
 
 @implementation ViewController
 
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -28,8 +27,23 @@
 
 - (void)awakeFromNib {
     game = [[HangmanGame alloc] init];
+
+    [self updateView];
     NSLog([game getCurrentWord]);
 }
+
+-(BOOL)prefersStatusBarHidden{
+    return YES;
+}
+
+- (void)updateView {
+}
+
+- (IBAction)newGame:(id)sender {
+    NSLog(@"new game!");
+    [game newGame];
+}
+
 
 - (void)buttonSelected:(id)sender character:(NSString *)ch {
     [game guessChar:ch];
