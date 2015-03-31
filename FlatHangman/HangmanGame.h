@@ -21,4 +21,5 @@
 - (NSString *)getCurrentWord;
 - (void)guessChar:(NSString *)ch;
 - (void)newGame;
+- (NSInteger)getTries;
 @end

@@ -14,10 +14,15 @@
 @end
 
 @implementation ViewController
+@synthesize liveLabel;
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    buttonArray = [NSArray arrayWithObjects: _aButton, _bButton, _cButton, _dButton, _eButton, _fButton, _gButton, _hButton, _iButton, _jButton, _kButton, _lButton, _mButton, _nButton, _oButton, _pButton, _qButton, _rButton, _sButton, _tButton, _uButton, _vButton, _wButton, _xButton, _yButton, _zButton, nil];
+    [self updateView];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -27,9 +32,6 @@
 
 - (void)awakeFromNib {
     game = [[HangmanGame alloc] init];
-
-    [self updateView];
-    NSLog([game getCurrentWord]);
 }
 
 -(BOOL)prefersStatusBarHidden{
@@ -37,11 +39,18 @@
 }
 
 - (void)updateView {
+    liveLabel.text = [NSString stringWithFormat:@"%d/5", [game getTries]];
 }
 
 - (IBAction)newGame:(id)sender {
-    NSLog(@"new game!");
     [game newGame];
+    [self updateView];
+
+    for (UIButton *button in buttonArray) {
+        button.enabled = YES;
+    }
+    
+    
 }
 
 
@@ -49,11 +58,12 @@
     [game guessChar:ch];
     UIButton *theButton = (UIButton *) sender;
     theButton.enabled = NO;
+    [self updateView];
 }
 
 - (IBAction)aSelected:(id)sender {
     [self buttonSelected:sender character:@"a"];
-
+    _aButton.enabled = NO;
 }
 
 - (IBAction)bSelected:(id)sender {

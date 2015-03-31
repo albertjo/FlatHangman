@@ -12,11 +12,39 @@
 
 @interface ViewController : UIViewController {
     HangmanGame *game;
-    IBOutlet UILabel *_livesLabel;
+    NSArray *buttonArray;
 }
 
-- (void)updateView;
+@property (weak, nonatomic) IBOutlet UILabel *liveLabel;
+@property (weak, nonatomic) IBOutlet UIButton *aButton;
+@property (weak, nonatomic) IBOutlet UIButton *bButton;
+@property (weak, nonatomic) IBOutlet UIButton *cButton;
+@property (weak, nonatomic) IBOutlet UIButton *dButton;
+@property (weak, nonatomic) IBOutlet UIButton *eButton;
+@property (weak, nonatomic) IBOutlet UIButton *fButton;
+@property (weak, nonatomic) IBOutlet UIButton *gButton;
+@property (weak, nonatomic) IBOutlet UIButton *hButton;
+@property (weak, nonatomic) IBOutlet UIButton *iButton;
+@property (weak, nonatomic) IBOutlet UIButton *jButton;
+@property (weak, nonatomic) IBOutlet UIButton *kButton;
+@property (weak, nonatomic) IBOutlet UIButton *lButton;
+@property (weak, nonatomic) IBOutlet UIButton *mButton;
+@property (weak, nonatomic) IBOutlet UIButton *nButton;
+@property (weak, nonatomic) IBOutlet UIButton *oButton;
+@property (weak, nonatomic) IBOutlet UIButton *pButton;
+@property (weak, nonatomic) IBOutlet UIButton *qButton;
+@property (weak, nonatomic) IBOutlet UIButton *rButton;
+@property (weak, nonatomic) IBOutlet UIButton *sButton;
+@property (weak, nonatomic) IBOutlet UIButton *tButton;
+@property (weak, nonatomic) IBOutlet UIButton *uButton;
+@property (weak, nonatomic) IBOutlet UIButton *vButton;
+@property (weak, nonatomic) IBOutlet UIButton *wButton;
+@property (weak, nonatomic) IBOutlet UIButton *xButton;
+@property (weak, nonatomic) IBOutlet UIButton *yButton;
+@property (weak, nonatomic) IBOutlet UIButton *zButton;
 
+
+- (void)updateView;
 - (IBAction)newGame:(id)sender;
 - (IBAction)aSelected:(id)sender;
 - (IBAction)bSelected:(id)sender;
